@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topo{
+    position: relative;
+    padding: 35px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.topo_img{
+    position: relative;
+}
+
+.topo_img h1{
+    color: black;
+}
+
+.topo_img img{
+    width: 80px;
+}
+
+.texto_logo{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+.texto_logo p{
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.links_topo{
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+.links_topo a{
+    padding: 0 10px;
+    color: #233032;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.fundo_azul{
+    background-color: #2f86d6;
+}
+
+.banner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    position: relative;
+    padding: 180px 0px;
+}
+
+.banner div{
+    color: #fff;
+    width: 470px;
+}
+
+.banner div p{
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+.banner div h2{
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+
+.banner_img{
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    width: 50%;
+}
+
+.fundo_cinza{
+    background-color: #23303e;
+    color: #fff;
+}
+
+.anuncio{
+    max-width: 1024px;
+    position: relative;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.anuncio div{
+    width: 600px;
+}
+
+.anuncio div h2{
+    margin-bottom: 5px;
+}
+
+.anuncio div a{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #2f86d6;
+    border-radius: 4px;
+    padding: 20px 20px 20px 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.anuncio div a img{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.infos{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.infos h2{
+    margin: 0 auto 60px;
+    width: 900px;
+    font-size: 32px;
+}
+
+.infos span{
+    color: #2f86d6;
+}
+
+.cards{
+    position: relative;
+    padding: 180px 0px 100px 0;
+    height: 240px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cards div{
+    position: absolute;
+    width: 33%;
+    top: 0;
+}
+
+.cards div img{
+    width: 100px;
+}
+
+.card2{
+    left: 343px;
+}
+
+.card3{
+    right: 0;
+}
+
+.cards div h3{
+    margin: 20px;
+}
+
+.tabela{
+    padding: 100px 0;
+    background-color: #f1f3f7;
+}
+
+.tabela h2{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 32px;
+}
+
+.tabela span{
+    color: #2f86d6;
+}
+
+table{
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+table img {
+    width: 100px;
+    margin: auto;
+}
+
+table thead th{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+table thead th h3 {
+    margin-bottom: 20px;
+}
+
+table thead th p{
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+table tbody td{
+    width: 250px;
+    max-width: 1024;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.linha1{
+    background-color: #f6f6f6;
+}
+
+.linha2{
+    background-color: #fff;
+}
+
+.anuncio2 div{
+    max-width: 1024px;
+    position: relative;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.anuncio2 div h2{
+    width: 550px;
+    color: #fff;
+}
+
+.anuncio2 div a{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #233032;
+    border-radius: 4px;
+    padding: 20px 20px 20px 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.anuncio2 div a img{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.rodape{
+    position: relative;
+    margin: 70px auto 40px;
+    width: 320px;
+}
+
+.rodape img{
+    width: 80px;
+}
+
+.rodape div{
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.rodape p{
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.contatos{
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.aluno{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #f1f3f7
+}
+
+.aluno span{
+    color: #2f86d6;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: grey ;
+    border: 5px solid white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2f86d6 ;
+    border-radius: 50px;
+    border: 2px solid white;
+}

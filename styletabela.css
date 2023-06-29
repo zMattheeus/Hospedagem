@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fundo_azul{
+    background-color: #2f86d6;
+}
+
+.topo{
+    position: relative;
+    padding: 35px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.topo_img{
+    position: relative;
+}
+
+.topo_img img{
+    width: 80px;;
+}
+
+.topo_img div{
+    top: 0;
+    left: 100px;
+    position: absolute;
+}
+
+.topo_img p{
+    font-weight: 600;
+    color: #fff;
+}
+
+.topo_img h1{
+    color: black;
+}
+
+.links_topo{
+    top: 65px;
+    right: 0;
+    position: absolute;
+}
+
+.links_topo a{
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tabela{
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.escondida{
+    background-color: #fff;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+table thead p{
+    color: #a89f9f;
+    font-size: 12px;
+}
+
+table thead th{
+    padding: 20px 30px;
+    background-color: rgb(235, 229, 229);
+    border-radius: 5px;
+}
+
+table tbody tr td{
+    padding: 13px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(235, 229, 229);
+    border-right: 1px solid rgb(235, 229, 229);
+}
+
+.cor_celula{
+    background-color: rgb(235, 229, 229);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+table tbody tr td div{
+    background-color: #2f86d6;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.rodape{
+    position: relative;
+    margin: 70px auto 0;
+    padding: 50px 0 0 0;
+    background-color: #2f86d6;
+}
+
+.rodape_img{
+    position: relative;
+    width: 320px;
+    margin: auto;
+}
+
+.rodape_img img{
+    width: 80px;
+}
+
+.rodape_img div{
+    position: absolute;
+    top: 0;
+    left:  95px;
+}
+
+.rodape_img div p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.rodape_txt{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 70px;
+}
+
+.aluno{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #f1f3f7
+}
+
+.aluno span{
+    color: #2f86d6;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: grey ;
+    border: 5px solid white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2f86d6 ;
+    border-radius: 50px;
+    border: 2px solid white;
+}
